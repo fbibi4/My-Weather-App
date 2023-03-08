@@ -1,0 +1,76 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 30px;
+}
+h1 {
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 66px;
+  padding: 0 auto;
+  margin: 5px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  margin-top: 10px;
+  display: block;
+  margin: auto;
+  font-size: 38px;
+  font-weight: 100;
+  line-height: 50px;
+  margin: 0;
+}
+
+p {
+  padding: 0 auto;
+  margin: 10;
+}
+
+.weather-app {
+  border: solid 8px black;
+  border-radius: 20px;
+  padding: 30px 30px;
+}
+.weather-forcast {
+  border: solid 8px black;
+  border-radius: 20px;
+  padding: 20px 20px 20px 20px;
+  text-align: center;
+}
+
+.moreInfo {
+  padding: 0;
+  margin: 0 auto;
+}
+
+.search-form {
+  margin-bottom: 20px;
+}
+li {
+  line-height: 1.5;
+  list-style: none;
+  margin-top: 5px;
+}
+
+ul {
+  margin: 0 au;
+  padding: ;
+  margin-top: -50px;
+}
+
+.temperature {
+  font-size: 45px;
+}
+
+.units {
+  position: relative;
+  top: -30px;
+}
+
+.weather-icon {
+  height: 74px;
+  width: 74px;
+  padding: 0 auto;
+  margin: 0 auto;
+}
