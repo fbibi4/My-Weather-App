@@ -51,6 +51,7 @@ li {
   line-height: 1.5;
   list-style: none;
   margin-top: 5px;
+  text-transform: capitalize;
 }
 
 ul {
