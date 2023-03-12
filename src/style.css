@@ -2,7 +2,9 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin-top: 30px;
   background-color: rgb(201, 229, 241);
-  background-image: url("../weather-forecast-pattern.jpg");
+  background-image: url("../images/tree.jpg");
+  background-size: 100%;
+  opacity: 10;
 }
 
 h1 {
