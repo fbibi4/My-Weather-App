@@ -18,8 +18,27 @@ function dateToday(timestamp) {
     "Friday",
     "Saturday",
   ];
+  let months = [
+    "January",
+    "February",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October",
+    "November",
+    "December",
+  ];
   let day = days[date.getDay()];
-  return `${day} ${hours}:${minutes}`;
+  let currentYear = date.getFullYear();
+  let currentDay = days[date.getDay()];
+  let currentMonth = months[date.getMonth()];
+  let currentDate = date.getDate();
+
+  return `${hours}:${minutes} ${currentDay}, ${currentMonth} ${currentDate}, ${currentYear}`;
 }
 
 function newDay(timestamp) {
