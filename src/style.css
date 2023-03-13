@@ -2,6 +2,7 @@ body {
   margin-top: 30px;
   background: url("../images/clouds.2.jpg");
   font-size: 16px;
+  font-family: monospace;
 }
 
 h1 {
@@ -11,6 +12,7 @@ h1 {
   margin: 5px;
   margin-top: -10px;
   margin-bottom: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 h2 {
@@ -53,15 +55,12 @@ li {
 }
 
 ul {
-  margin: 0 au;
   padding: 15px;
-  margin-top: -50px;
-  font-size: large;
-  text-align: center;
+  margin-top: -40px;
 }
 
 .temperature {
-  font-size: 45px;
+  font-size: 55px;
 }
 
 .units {
@@ -74,6 +73,7 @@ ul {
   width: 100px;
   padding: 0 auto;
   margin: 0px;
+  margin: -10px;
 }
 
 .weather-forecast {
