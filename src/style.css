@@ -106,7 +106,7 @@ footer {
 
 hr {
   line-height: 1px;
-  border: solid 2px #444444;
+  border: solid 2px #b3b1b1;
 }
 
 .col-4 {
@@ -115,7 +115,7 @@ hr {
 }
 
 .vl {
-  border-left: solid 3px #999797;
+  border-left: solid 2px #c4c3c3;
   height: 90px;
   position: absolute;
   left: 50%;
